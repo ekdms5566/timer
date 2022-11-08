@@ -11,18 +11,19 @@ function setZero() {
   if (!hours.value && !minutes.value && !second.value) {
     alert("시간 입력");
   }
-  if (!hours.value) hours.value === "00";
-  if (!minutes.value) minutes.value === "00";
-  if (!second.value) second.value === "00";
+  if (!hours.value) hours.value = 0;
+  if (!minutes.value) minutes.value = 0;
+  if (!second.value) second.value = 0;
   setTime();
 }
 
 function setTime() {
+  console.log(hours.value + minutes.value + second.value);
   time =
     parseInt(hours.value) * 60 * 60 +
     parseInt(minutes.value) * 60 +
     parseInt(second.value);
-  //   console.log(time);
+  console.log(time);
 }
 
 function pauseTimer() {}
