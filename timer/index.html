@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>타이머</title>
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/style.css">
+</head>
+
+<body>
+    <main id="app">
+        <h1>
+            <img class="img-logo" src="./src/img/weniv-logo.png" alt="위니브">
+        </h1>
+        <article class="timer">
+            <h2 class="tit-timer">TIMER</h2>
+            <div class="cont-time">
+                <label for="hours">HRS</label>
+                <!-- <img src="./src/img/time-bg.png" alt=""> -->
+                <input id="hours" type="number" min="0" max="99">
+                <label for="minutes">MIN</label>
+                <input id="minutes" type="number" min="0" max="59">
+                <label for="second">SEC</label>
+                <input id="second" type="number" min="0" max="59">
+            </div>
+            <div class="cont-btn">
+                <button class="btn-start">
+                    <img src="./src/img/play.png" alt="">START
+                </button>
+                <button class="btn-pause">
+                    <img src="./src/img/pause.png" alt="">PAUSE
+                </button>
+                <button class="btn-reset">
+                    <img src="./src/img/restart.png" alt="">RESET
+                </button>
+            </div>
+        </article>
+    </main>
+
+    <script src="./src/js/main.js"></script>
+</body>
+
+</html>
