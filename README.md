@@ -2,4 +2,6 @@
 
 timer 폴더 내부 - 초기 코드
 
-'추가' 커밋 - 수정
+실행 화면
+
+https://ekdms5566.github.io/timer/
